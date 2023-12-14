@@ -2,8 +2,8 @@
 ## Getting Started : 
 These instruction will get you a copy of project up and running on your local machine for development and testing purposes.
 
- ## :link:  Prerequsites:
-No dependencies are required to run this project.
+ ## :link:Prerequsites:
+No dependencies are required to run this project.:link:
 
 ## Installing :
 to install the project ,simply clone or download the repository and open the index.html file in the web browser.
