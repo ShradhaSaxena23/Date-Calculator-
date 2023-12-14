@@ -1,8 +1,10 @@
 # Date-Calculator-
+a mobile friendly application to perform date arithmetic and display result in hindi.
+![mobile view]()
 ## Getting Started : 
 These instruction will get you a copy of project up and running on your local machine for development and testing purposes.
 
- ## :link: Prerequsites:
+ ##  Prerequsites:
 No dependencies are required to run this project.
 
 ## Installing :
