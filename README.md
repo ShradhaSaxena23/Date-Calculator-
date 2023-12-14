@@ -9,7 +9,7 @@ No dependencies are required to run this project.
 to install the project ,simply clone or download the repository and open the index.html file in the web browser.
 
 # #Deployment :
-To deploy this project, simply upload the files to web server or hosting server. or go to the link https://shradhasaxena23.github.io/Wynk-Music-clone/
+To deploy this project, simply upload the files to web server or hosting server. or go to the link 
 
 # # Built: 
 with HTML CSS JAVASCRIPT
