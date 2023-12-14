@@ -1,0 +1,116 @@
+body{
+    box-sizing: border-box;
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:90vh;
+    border-color: white;
+    background-image: linear-gradient(to right, black, rgb(51, 0, 255),indigo);
+    }
+
+.main{
+    
+   border-color: white;
+   
+   opacity: 90%;
+    font-size: larger;
+    width:400px;
+    height:500px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.wrap-up{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#startdate{
+font-size: 20px;
+}
+#durationType{
+    margin-left:100px;
+    height:55px;
+    margin-top: 30px;
+    width: 80px;
+    border-radius: 15px;
+    padding: 10px;
+  box-shadow: 0 8px 6px -6px black;
+}
+#durationValue{
+    width:200px;
+    height:50px;
+    margin-top: 30px;
+    margin-left:-7px;
+    
+   
+}
+#operation{
+    width:100px;
+    height:40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 6px -6px black;
+}
+#duration{
+    font-size: 25px;
+    margin-left:-5px;
+    margin-top:15px;
+   
+}
+
+.wrap-up div{
+    height:100px;
+    width:100px;
+    display:grid;
+    margin:10px;
+    
+}
+
+#firstinput{
+    color:white;
+    
+}
+
+input{
+    height:50px;
+    width:300px;
+    border-radius: 15px;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+form label{
+font-size: 25px;
+color:white;
+padding-bottom: 10px;
+}
+
+form{
+    border-radius: 22px;
+    border-color: white;
+    width:300px
+
+}
+button{
+    height:30px;
+    width:200px;
+    margin:50px;
+    cursor:pointer;
+    border-radius: 17px;
+    font-size: 20px;
+    box-shadow: 0 8px 6px -6px black;
+}
+#result{
+    margin-top: -25px;
+
+    color:white;
+}
+#today{
+    margin-left:-30;
+    text-align: left;
+    color:white;
+    
+}

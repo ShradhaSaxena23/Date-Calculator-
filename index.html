@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date calculator</title>
+    <link rel="stylesheet" href="calender.css">
+</head>
+<body>
+    <script src="calender.js"></script>
+    
+    <div class="main">
+        <form>
+            <div>
+                <label>Start Date</label><br>
+                
+                <input type="date" onchange="showDate()" id="startDate">
+                <br>
+                <div id="firstinput">
+
+                </div>
+
+                <div><br></div>
+
+                <label>Operation</label><br>
+                
+                <select id="operation">
+                    <option value="add">Add</option>
+                    <option value="subtract">Subtract</option>
+                </select>
+
+                <div class="wrap-up">
+                    <div>
+                       
+                        <input type="number" id="durationValue" min="0" placeholder=" Please enter value for operation"><br>
+                    </div>
+                    <div>
+                        <select id="durationType">
+                            <option value="days">Days</option>
+                            <option value="months">Months</option>
+                            <option value="weeks">Weeks</option>
+                            <option value="years">Years</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <button type="button" onclick="output()">Submit</button>
+        </form>
+
+        <div id="result"></div>
+
+        <div id="today" ><div>
+    </div>
+</body>
+
+</html>
