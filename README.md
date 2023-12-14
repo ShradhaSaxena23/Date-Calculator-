@@ -1,6 +1,6 @@
 # Date-Calculator-
 a mobile friendly application to perform date arithmetic and display result in hindi.
-![mobile view]()
+![](Screenshot 9)
 ## Getting Started : 
 These instruction will get you a copy of project up and running on your local machine for development and testing purposes.
 
