@@ -8,19 +8,34 @@ body{
     border-color: white;
     background-image: linear-gradient(to right, black, rgb(51, 0, 255),indigo);
     }
+    
+
+    #opr-options span{
+        height:10px;
+    }
+    #opr-options {
+        display: flex;
+        flex-direction: row;
+    }
+    #opr-options label{
+        margin-top: 12px;
+    }
+
+    
 
 .main{
     
-   border-color: white;
-   
+   background-color: black;
+   color:white;
    opacity: 90%;
     font-size: larger;
     width:400px;
-    height:500px;
+    height:700px;
     display: flex;
    justify-content: center;
    align-items: center;
    flex-direction: column;
+   box-shadow: 0 0 15px 15px rgba(55, 161, 242, 0.904);
 }
 
 .wrap-up{
@@ -32,28 +47,33 @@ body{
 #startdate{
 font-size: 20px;
 }
+
+
+
+
 #durationType{
-    margin-left:100px;
+   
     height:55px;
-    margin-top: 30px;
+    margin-top: 25px;
     width: 80px;
     border-radius: 15px;
     padding: 10px;
-  box-shadow: 0 8px 6px -6px black;
+    margin-left: 90px;
+ 
 }
 #durationValue{
     width:200px;
     height:50px;
-    margin-top: 30px;
-    margin-left:-7px;
+    margin-top: 25px;
     
+
    
 }
 #operation{
     width:100px;
     height:40px;
     border-radius: 15px;
-    box-shadow: 0 8px 6px -6px black;
+    
 }
 #duration{
     font-size: 25px;
@@ -76,14 +96,15 @@ font-size: 20px;
 }
 
 input{
-    height:50px;
+    height:40px;
     width:300px;
     border-radius: 15px;
-    box-shadow: 0 8px 6px -6px black;
+   
 }
 
 form label{
-font-size: 25px;
+font-size: 30px;
+font-family:Georgia, 'Times New Roman', Times, serif;
 color:white;
 padding-bottom: 10px;
 }
@@ -101,16 +122,15 @@ button{
     cursor:pointer;
     border-radius: 17px;
     font-size: 20px;
-    box-shadow: 0 8px 6px -6px black;
+    margin-top: 0;
 }
 #result{
-    margin-top: -25px;
+    margin-top: -26px;
 
     color:white;
 }
 #today{
-    margin-left:-30;
-    text-align: left;
-    color:white;
+    position:absolute;
+    top:80px;
     
 }
